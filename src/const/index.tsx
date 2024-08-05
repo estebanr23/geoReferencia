@@ -6,11 +6,11 @@ export const capas = [
     {
         id: 1,
         nombre: 'Division Politica',
+        url: 'https://nodoide.catamarca.gob.ar/geoserver/capasbase/wms?',
         items: [
             {
                 id: 1,
                 title: 'Division Politica', 
-                url: 'https://nodoide.catamarca.gob.ar/geoserver/capasbase/wms?',
                 layers: 'DivisionPolitica'
             },
         ]
@@ -19,17 +19,16 @@ export const capas = [
     {
         id: 2,
         nombre: 'Territorio',
+        url: 'https://nodoide.catamarca.gob.ar/geoserver/capital_territorio/wms?',
         items: [
             {
                 id: 2,
                 title: 'Riesgo Inundación',
-                url: 'https://nodoide.catamarca.gob.ar/geoserver/capital_territorio/wms?',
                 layers: 'Riesgo-inundacion'
             },
             {
                 id: 3,
                 title: 'Area Montaña',
-                url: 'https://nodoide.catamarca.gob.ar/geoserver/capital_territorio/wms?',
                 layers: 'area_montana_Cata'
             },
         ] 
@@ -37,23 +36,21 @@ export const capas = [
     {
         id: 3,
         nombre: 'Planificación Estrategica',
+        url: 'https://nodoide.catamarca.gob.ar/geoserver/capital_planificacionestrategica/wms?',
         items: [
             {
                 id: 4,
                 title: 'Uso Residencial',
-                url: 'https://nodoide.catamarca.gob.ar/geoserver/capital_planificacionestrategica/wms?',
                 layers: 'Uso_residencial'
             },
             {
                 id: 5,
                 title: 'Vacios Urbanos',
-                url: 'https://nodoide.catamarca.gob.ar/geoserver/capital_planificacionestrategica/wms?',
                 layers: 'VACIOS_URBANOS_CATAMARCA_CIUDAD'
             },
             {
                 id: 6,
                 title: 'Zona de Planificación Barrial',
-                url: 'https://nodoide.catamarca.gob.ar/geoserver/capital_planificacionestrategica/wms?',
                 layers: 'ZoPlaBa'
             },
         ] 
@@ -61,168 +58,150 @@ export const capas = [
     {
         id: 4,
         nombre: 'Infraestructura y Equipamiento',
+        url: 'https://nodoide.catamarca.gob.ar/geoserver/capital_infraestructurayequipamiento/wms?',
         items: [
             {
                 id: 7,
                 title: 'ASFALTO',
-                url: '',
-                layers: ''
+                layers: 'ASFALTO'
             },
             {
                 id: 8,
                 title: 'Asfalto 2020 - 2022',
-                url: '',
-                layers: ''
+                layers: 'Asfalto_2020_2022'
             },
             {
                 id: 9,
                 title: 'Canchitas',
-                url: '',
-                layers: ''
+                layers: 'CANCHITAS_1'
             },
             {
                 id: 10,
                 title: 'Centros Vecinales',
-                url: '',
-                layers: ''
+                layers: 'CENTROS_VECINALES'
             },
             {
                 id: 11,
                 title: 'Clubes',
-                url: '',
-                layers: ''
+                layers: 'Deportes'
             },
             {
                 id: 12,
                 title: 'LED',
-                url: '',
-                layers: ''
+                layers: 'LED'
             },
             {
                 id: 13,
                 title: 'LED 2020 - 2022',
-                url: '',
-                layers: ''
+                layers: 'LED_2020_2022'
             },
             {
                 id: 14,
                 title: 'SePaVe',
-                url: '',
-                layers: ''
+                layers: 'SePaVe'
             },
             {
                 id: 15,
                 title: 'SIN ASFALTO',
-                url: '',
-                layers: ''
+                layers: 'SIN-ASFALTO'
             },
             {
                 id: 16,
                 title: 'Veredas',
-                url: '',
-                layers: ''
+                layers: 'Veredas'
             },
         ]  
     },
     {
         id: 5,
         nombre: 'Ambiente y Espacio Publico',
+        url: 'https://nodoide.catamarca.gob.ar/geoserver/capital_ambienteyespaciopublico/wms?',
         items: [
             {
                 id: 17,
                 title: 'ARBOLADO URBANO',
-                url: '',
-                layers: 'U'
+                layers: 'ARBOLADO-URBANO'
             },
             {
                 id: 18,
                 title: 'Contenedores',
-                url: '',
-                layers: ''
+                layers: 'Contenedores'
             },
             {
                 id: 19,
                 title: 'Espacios Verdes',
-                url: '',
-                layers: ''
+                layers: 'Espacios-Verdes'
             },
             {
                 id: 20,
                 title: 'Plazas 2020 - 2022',
-                url: '',
-                layers: ''
+                layers: 'Plazas-2020-2022'
             },
         ] 
     },
     {
         id: 6,
         nombre: 'Patrimonio y Cultura',
+        url: 'https://nodoide.catamarca.gob.ar/geoserver/capital_patrimonioycultura/wms?',
         items: [
             {
                 id: 21,
                 title: 'Patrimonio',
-                url: '',
-                layers: ''
+                layers: 'patrimonio'
             },
         ] 
     },
     {
         id: 7,
         nombre: 'Seguridad',
+        url: 'https://nodoide.catamarca.gob.ar/geoserver/capital_seguridad/wms?',
         items: [
             {
                 id: 22,
                 title: 'Seguridad',
-                url: '',
-                layers: ''
+                layers: 'SEGURIDAD'
             },
         ] 
     },
     {
         id: 8,
         nombre: 'Movilidad y Transporte',
+        url: 'https://nodoide.catamarca.gob.ar/geoserver/capital_movilidadytransporte/wms?',
         items: [
             {
                 id: 23,
                 title: 'Bicisendas',
-                url: '',
-                layers: ''
+                layers: 'BICISENDAS_METAS'
             },
             {
                 id: 24,
                 title: 'Garitas',
-                url: '',
-                layers: ''
+                layers: 'GARITAS'
             },
             {
                 id: 25,
                 title: 'Línea 25 de Agosto',
-                url: '',
-                layers: ''
+                layers: 'linea-25-agosto'
             },
             {
                 id: 26,
                 title: 'Línea Coop. San Fernando',
-                url: '',
-                layers: ''
+                layers: 'coop-san-fernando'
             },
             {
                 id: 27,
                 title: 'Línea El Nene',
-                url: '',
-                layers: ''
+                layers: 'line-elnene'
             },
             {
                 id: 28,
                 title: 'Línea GM',
-                url: '',
-                layers: ''
+                layers: 'linea-gm'
             },
             {
                 id: 29,
                 title: 'Línea Rubi',
-                url: '',
-                layers: ''
+                layers: 'TRANSPORTE-PUBLICO_RECORRIDO'
             },
         ] 
     },

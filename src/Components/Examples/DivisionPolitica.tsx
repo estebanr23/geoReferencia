@@ -1,5 +1,5 @@
 import { MapContainer, TileLayer, WMSTileLayer } from "react-leaflet"
-import { initialPosition } from "../assets/const"; 
+import { initialPosition } from "../../const"; 
 
 function DivisionPolitica() {
   return (
