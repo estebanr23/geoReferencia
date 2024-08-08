@@ -1,9 +1,24 @@
 import { Accordion } from "flowbite-react";
 import useStore from "../store/useStore";
 
+interface Item {
+    id: number,
+    title: string,
+    layers: string,
+    status: boolean
+}
+
 const Sidebar = () => {
     const { sidebar, filter, updateState } = useStore();
-    // const { sidebar, filter, updateUrl, updateFilter, updateSidebar } = useStore();
+
+    const counterItems = (items: Item[]) => {
+        let accumulator: number = 0;
+        items.forEach((item) => { 
+            if (item.status) accumulator = accumulator + 1;
+        });
+
+        return accumulator;
+    };
 
     const onAddFilter = (url: string, layers: string, itemId: number) => {
         let newFilter = ''; 
@@ -27,6 +42,7 @@ const Sidebar = () => {
             return {
                 ...sid,
                 active: items.some((item) => item.status === true),
+                count: counterItems(items),
                 items
             }
         });
@@ -36,10 +52,6 @@ const Sidebar = () => {
             filter: newFilter,
             sidebar: newSidebar,
         });
-
-        /* updateUrl(url);
-        updateFilter(newFilter);
-        updateSidebar(newSidebar); */
     }
 
     return (
@@ -48,8 +60,10 @@ const Sidebar = () => {
             {
                 sidebar.map((capa) => (
                 <Accordion.Panel key={capa.id}>
-                    <Accordion.Title className={`${capa.active && 'bg-slate-800 text-white'}`}>{capa.nombre}</Accordion.Title>
-                
+                    <Accordion.Title className={`${capa.active && 'bg-slate-800 text-white'}`}>{capa.nombre} 
+                        { (capa.count > 0) && <span className="ml-1 px-2.5 py-1 rounded-full bg-sky-400 text-xs text-white">{capa.count}</span> }
+                    </Accordion.Title>
+
                     <Accordion.Content className="p-0">
                         <ul>
                         {

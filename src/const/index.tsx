@@ -8,6 +8,7 @@ export const capas = [
         nombre: 'Division Politica',
         url: 'https://nodoide.catamarca.gob.ar/geoserver/capasbase/wms?',
         active: false,
+        count: 0,
         items: [
             {
                 id: 1,
@@ -23,6 +24,7 @@ export const capas = [
         nombre: 'Territorio',
         url: 'https://nodoide.catamarca.gob.ar/geoserver/capital_territorio/wms?',
         active: false,
+        count: 0,
         items: [
             {
                 id: 2,
@@ -43,6 +45,7 @@ export const capas = [
         nombre: 'Planificación Estrategica',
         url: 'https://nodoide.catamarca.gob.ar/geoserver/capital_planificacionestrategica/wms?',
         active: false,
+        count: 0,
         items: [
             {
                 id: 4,
@@ -69,6 +72,7 @@ export const capas = [
         nombre: 'Infraestructura y Equipamiento',
         url: 'https://nodoide.catamarca.gob.ar/geoserver/capital_infraestructurayequipamiento/wms?',
         active: false,
+        count: 0,
         items: [
             {
                 id: 7,
@@ -137,6 +141,7 @@ export const capas = [
         nombre: 'Ambiente y Espacio Publico',
         url: 'https://nodoide.catamarca.gob.ar/geoserver/capital_ambienteyespaciopublico/wms?',
         active: false,
+        count: 0,
         items: [
             {
                 id: 17,
@@ -169,6 +174,7 @@ export const capas = [
         nombre: 'Patrimonio y Cultura',
         url: 'https://nodoide.catamarca.gob.ar/geoserver/capital_patrimonioycultura/wms?',
         active: false,
+        count: 0,
         items: [
             {
                 id: 21,
@@ -183,6 +189,7 @@ export const capas = [
         nombre: 'Seguridad',
         url: 'https://nodoide.catamarca.gob.ar/geoserver/capital_seguridad/wms?',
         active: false,
+        count: 0,
         items: [
             {
                 id: 22,
@@ -197,6 +204,7 @@ export const capas = [
         nombre: 'Movilidad y Transporte',
         url: 'https://nodoide.catamarca.gob.ar/geoserver/capital_movilidadytransporte/wms?',
         active: false,
+        count: 0,
         items: [
             {
                 id: 23,

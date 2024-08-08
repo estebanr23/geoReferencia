@@ -13,6 +13,7 @@ interface Sidebar {
   nombre: string,
   url: string,
   active: boolean,
+  count: number,
   items: Item[]
 }
 
